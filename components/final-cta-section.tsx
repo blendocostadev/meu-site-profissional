@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button"
 import { MessageCircle, Clock, TrendingUp, Shield } from "lucide-react"
 
 export function FinalCTASection() {
-  const whatsappNumber = "5511999999999"
-  const whatsappMessage = "🚀 URGENTE! Quero garantir minha vaga com desconto especial antes que acabe!"
+  const whatsappNumber = "5591984409973"
+  const whatsappMessage = "🚀 URGENTE! Quero Consultoria Grátis antes que acabe!"
 
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
@@ -82,7 +82,7 @@ export function FinalCTASection() {
             className="bg-green-600 hover:bg-green-700 text-white font-bold px-12 py-6 rounded-full text-xl flex items-center gap-4 mx-auto transform hover:scale-105 transition-transform shadow-2xl"
           >
             <MessageCircle size={24} />
-            QUERO MINHA VAGA COM DESCONTO
+            QUERO CONSULTORIA GRÁTIS
           </Button>
 
           <div className="text-sm opacity-75">⚡ Resposta em menos de 5 minutos • 🔒 Seus dados estão seguros</div>

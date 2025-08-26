@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Check, Crown, MessageCircle } from "lucide-react"
 
 export function ServicesSection() {
-  const whatsappNumber = "5511999999999"
+  const whatsappNumber = "5591984409973"
   const whatsappMessage = "Olá! Quero conhecer o Pacote Completo com desconto especial!"
 
   const handleWhatsAppClick = () => {
@@ -15,7 +15,7 @@ export function ServicesSection() {
   const services = [
     {
       title: "Site Profissional",
-      price: "R$ 2.997",
+      price: "",
       features: [
         "Design responsivo e moderno",
         "Otimização para conversão",
@@ -26,7 +26,7 @@ export function ServicesSection() {
     },
     {
       title: "Google Meu Negócio",
-      price: "R$ 1.497",
+      price: "",
       features: [
         "Otimização completa do perfil",
         "Gestão de avaliações",
@@ -37,7 +37,7 @@ export function ServicesSection() {
     },
     {
       title: "Identidade Visual",
-      price: "R$ 1.997",
+      price: "",
       features: [
         "Logo profissional",
         "Manual da marca",
@@ -129,14 +129,12 @@ export function ServicesSection() {
 
             <div className="text-center lg:text-right">
               <div className="mb-4">
-                <div className="text-lg opacity-75 line-through">De R$ 6.491</div>
-                <div className="text-4xl font-bold">R$ 4.497</div>
-                <div className="text-sm opacity-75">ou 12x de R$ 374,75</div>
+                <div className="text-lg opacity-75 line-through"></div>
+                <div className="text-4xl font-bold"></div>
+                <div className="text-sm opacity-75"></div>
               </div>
 
-              <div className="bg-red-500 text-white px-4 py-2 rounded-full text-sm font-bold mb-6 inline-block">
-                ECONOMIA DE R$ 1.994
-              </div>
+              
 
               <Button
                 onClick={handleWhatsAppClick}
@@ -144,7 +142,7 @@ export function ServicesSection() {
                 className="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-full text-lg flex items-center gap-3 w-full lg:w-auto"
               >
                 <MessageCircle size={20} />
-                Quero o Pacote Completo
+                Solicitar Consultoria Gratuita
               </Button>
 
               <div className="mt-4 text-sm opacity-75">⚡ Últimas 5 vagas com desconto</div>

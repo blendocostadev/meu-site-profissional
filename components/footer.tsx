@@ -6,7 +6,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="text-2xl font-bold text-blue-400 mb-4">DigitalPro</div>
+            <div className="text-2xl font-bold text-blue-400 mb-4">BC</div>
             <p className="text-gray-400 mb-4">
               Transformamos negócios locais em máquinas de vendas através do marketing digital integrado.
             </p>
@@ -32,15 +32,15 @@ export function Footer() {
             <div className="space-y-3 text-gray-400 text-sm">
               <div className="flex items-center gap-2">
                 <MessageCircle size={16} />
-                <span>(11) 99999-9999</span>
+                <span>(91) 98440-9973</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={16} />
-                <span>contato@digitalpro.com.br</span>
+                <span>blendo.icosta@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin size={16} />
-                <span>São Paulo, SP</span>
+                <span>Belém, PA</span>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; 2024 DigitalPro. Todos os direitos reservados.</p>
+          <p>&copy; 2024 BC. Todos os direitos reservados.</p>
           <p className="mt-2">Desenvolvido para transformar negócios locais em máquinas de vendas.</p>
         </div>
       </div>

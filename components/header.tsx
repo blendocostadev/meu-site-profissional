@@ -7,8 +7,8 @@ import { Menu, X, MessageCircle } from "lucide-react"
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const whatsappNumber = "5511999999999" // Substitua pelo número real
-  const whatsappMessage = "Olá! Gostaria de saber mais sobre os serviços de marketing digital."
+  const whatsappNumber = "5591984409973" // Substitua pelo número real
+  const whatsappMessage = "Olá! Gostaria de saber mais sobre os serviços do ecosistema digital."
 
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
@@ -21,7 +21,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="text-2xl font-bold text-blue-600">DigitalPro</div>
+            <div className="text-2xl font-bold text-orange-600">BC</div>
           </div>
 
           {/* Desktop Menu */}

@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, MessageCircle, TrendingUp } from "lucide-react"
 
 export function HeroSection() {
-  const whatsappNumber = "5511999999999"
-  const whatsappMessage = "Olá! Quero transformar meu negócio com marketing digital profissional!"
+  const whatsappNumber = "5591984409973"
+  const whatsappMessage = "Olá! Quero transformar meu negócio com o ecosistema digital profissional!"
 
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
@@ -19,7 +19,7 @@ export function HeroSection() {
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <TrendingUp size={16} />
-              Transformação Digital Comprovada
+              Transformação Digital 
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
@@ -71,7 +71,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="bg-white rounded-2xl shadow-2xl p-8 transform rotate-2 hover:rotate-0 transition-transform duration-300">
               <img
-                src="/placeholder.svg?height=400&width=500"
+                src="/ft.PNG"
                 alt="Dashboard de resultados"
                 className="w-full h-auto rounded-lg"
               />
