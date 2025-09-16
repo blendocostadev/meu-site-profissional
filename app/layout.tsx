@@ -4,9 +4,8 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'Agência de Marketing Digital em Mosqueiro, Belém , Ananindeua e Brasil | BC Digital',
+  description: 'Oferecemos criação de sites, landing pages, gestão de tráfego pago e otimização no Google Meu Negócio. Estratégias completas para negócios locais.',
 }
 
 export default function RootLayout({
